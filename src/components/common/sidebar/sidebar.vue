@@ -48,10 +48,10 @@
                         subs: [
                             {
                                 index: 'baseform',
-                                title: '基本表单'
+                                title: '表单功能'
                             },
                             {
-                                index: 'vueeditor',
+                                index: 'editor',
                                 title: '编辑器'
                             },
                             {

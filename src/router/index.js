@@ -5,6 +5,7 @@ import Home from 'components/common/home/home'
 import Readme from 'components/page/readme/readme'
 import Basetable from 'components/page/basetable/basetable'
 import Baseform from 'components/page/baseform/baseform'
+import Editor from 'components/page/editor/editor'
 
 
 Vue.use(Router)
@@ -29,6 +30,10 @@ const routes = [
             {
                 path: '/baseform',
                 component: Baseform
+            },
+            {
+                path: '/editor',
+                component: Editor
             }
 
         ]
