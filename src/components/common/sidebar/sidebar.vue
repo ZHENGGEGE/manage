@@ -58,22 +58,15 @@
                                 index: 'markdown',
                                 title: 'markdown'
                             },
-                            {
-                                index: 'upload',
-                                title: '文件上传'
-                            }
+                            
                         ]
                     },
                     {
                         icon: 'el-icon-star-on',
-                        index: 'basecharts',
-                        title: '图表'
-                    },
-                    {
-                        icon: 'el-icon-upload2',
-                        index: 'drag',
-                        title: '拖拽'
+                        index: 'order',
+                        title: '订单'
                     }
+                   
                 ]
             }
         },

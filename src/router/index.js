@@ -6,6 +6,7 @@ import Readme from 'components/page/readme/readme'
 import Basetable from 'components/page/basetable/basetable'
 import Baseform from 'components/page/baseform/baseform'
 import Editor from 'components/page/editor/editor'
+import Order from 'components/page/order/order'
 
 
 Vue.use(Router)
@@ -34,6 +35,10 @@ const routes = [
             {
                 path: '/editor',
                 component: Editor
+            },
+            {
+                path:'/order',
+                component: Order
             }
 
         ]
@@ -42,7 +47,6 @@ const routes = [
         path: '/login',    
         component: Login
     }
-
 ]
 
 

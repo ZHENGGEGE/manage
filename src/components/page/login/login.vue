@@ -20,7 +20,7 @@
 
 <script>
     export default {
-        data: function(){
+        data () {
             return {
                 ruleForm: {
                     username: '',

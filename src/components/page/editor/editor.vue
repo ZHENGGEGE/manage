@@ -6,10 +6,7 @@
                 <el-breadcrumb-item>编辑器</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
-        <div class="plugins-tips">
-            Vue-Quill-Editor：基于Quill、适用于Vue2的富文本编辑器。
-            访问地址：<a href="https://github.com/surmon-china/vue-quill-editor" target="_blank">vue-quill-editor</a>
-        </div>
+        
         <quill-editor ref="myTextEditor" v-model="content" :config="editorOption"></quill-editor>
         <el-button class="editor-btn" type="primary" @click="submit">提交</el-button>
     </div>
@@ -20,7 +17,7 @@
     export default {
         data: function(){
             return {
-                content: '<p>Hello BBK</p>',
+                content: '<p>Hello element</p>',
                 editorOption: {
                     // something config
                 }
