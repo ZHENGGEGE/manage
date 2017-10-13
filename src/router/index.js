@@ -7,6 +7,7 @@ import Basetable from 'components/page/basetable/basetable'
 import Baseform from 'components/page/baseform/baseform'
 import Editor from 'components/page/editor/editor'
 import Order from 'components/page/order/order'
+import Markdown from 'components/page/markdown/markdown'
 
 
 Vue.use(Router)
@@ -39,6 +40,10 @@ const routes = [
             {
                 path:'/order',
                 component: Order
+            },
+            {
+                path:'/markdown',
+                component: Markdown
             }
 
         ]
