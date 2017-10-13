@@ -8,6 +8,7 @@ import Baseform from 'components/page/baseform/baseform'
 import Editor from 'components/page/editor/editor'
 import Order from 'components/page/order/order'
 import Markdown from 'components/page/markdown/markdown'
+import Upload from 'components/page/upload/upload'
 
 
 Vue.use(Router)
@@ -44,6 +45,10 @@ const routes = [
             {
                 path:'/markdown',
                 component: Markdown
+            },
+            {
+                path:'/upload',
+                component: Upload
             }
 
         ]

@@ -58,6 +58,10 @@
                                 index: 'markdown',
                                 title: 'markdown'
                             },
+                            {
+                                index: 'upload',
+                                title: '文件上传'
+                            }
                             
                         ]
                     },
