@@ -15,7 +15,7 @@
 <script>
     import { quillEditor } from 'vue-quill-editor';
     export default {
-        data: function(){
+        data (){
             return {
                 content: '<p>Hello element</p>',
                 editorOption: {

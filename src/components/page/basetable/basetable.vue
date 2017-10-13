@@ -181,6 +181,9 @@
       },
       handleDelete(){
           
+      },
+      delAll(){
+        return
       }
 
     }
