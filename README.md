@@ -1,21 +1,17 @@
-# manage
+# vue后台管理系统模板
 
-> yes
+- 使用了vue  elementui  vuex vue-router   
+- vuex的结构   vue-router的结构   http请求的封装    后台管理系统的样式  等等  都已经搭建好了  ，下载后直接上手业务 ，很好的模板，后台样式借鉴了一些开源的demo的样式。
 
-## Build Setup
+## 使用
 
-``` bash
-# install dependencies
-npm install
+```bash
+$ git clone git@github.com:ZHENGGEGE/manage.git
+$ cd manage
+$ npm install
+$ npm start         
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+  ### App running at:
+  - Local:   http://localhost:12580/
