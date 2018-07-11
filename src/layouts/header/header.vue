@@ -3,7 +3,7 @@
         <!-- 折叠按钮 -->
         <div class="collapse-btn"
             @click="collapseChage">
-            <i class="el-icon-menu"></i>
+            <i class="el-icon-circle-plus-outline"></i>
         </div>
         <div class="logo">酷开语音开放平台</div>
         <div class="header-right">

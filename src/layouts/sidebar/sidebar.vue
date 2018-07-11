@@ -37,17 +37,12 @@
 
 <script>
 import bus from '../bus.js'
+import menu from '../menu.js'
 export default {
   data () {
     return {
       collapse: false,
-      items: [
-        {
-          icon: 'el-icon-setting',
-          index: 'readme',
-          title: '系统简介'
-        }
-      ]
+      items: menu
     }
   },
   computed: {
